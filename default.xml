@@ -13,7 +13,7 @@
     <project name="meta-fsl-arm" path="sources/meta-fsl-arm" remote="yocto" revision="daisy" />
     <project name="meta-qt5/meta-qt5" path="sources/meta-qt5" remote="github" revision="daisy"/>
     <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="daisy" />
-    <project name="jmore-reachtech/meta-reach" path="sources/meta-reach" remote="github" revision="daisy"/>
+    <project name="jmore-reachtech/meta-reach" path="sources/meta-reach" remote="github" revision="daisy-next"/>
 
     <project name="jmore-reachtech/reach-platform" path="sources/conf/repo" remote="github" revision="daisy"/>
     <project name="jmore-reachtech/reach-config" path="sources/conf/tools" remote="github" revision="daisy"/>
