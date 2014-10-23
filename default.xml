@@ -15,6 +15,6 @@
     <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="daisy" />
     <project name="jmore-reachtech/meta-reach" path="sources/meta-reach" remote="github" revision="daisy"/>
 
-    <project name="jmore-reachtech/reach-platform" path="sources/conf/repo" remote="github" revision="master"/>
-    <project name="jmore-reachtech/reach-config" path="sources/conf/tools" remote="github" revision="master"/>
+    <project name="jmore-reachtech/reach-platform" path="sources/conf/repo" remote="github" revision="daisy"/>
+    <project name="jmore-reachtech/reach-config" path="sources/conf/tools" remote="github" revision="daisy"/>
 </manifest>
