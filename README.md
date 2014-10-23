@@ -18,4 +18,4 @@ $: repo sync
 Once this has completed, you will have all you need. To start a build:
 
 $: source ./setup-environment build  
-$: bitbake core-image-minimal
+$: bitbake reach-image-minimal
