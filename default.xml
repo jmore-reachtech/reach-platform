@@ -7,11 +7,11 @@
 
     <default revision="invalidRevision" sync-j="4"/>
 
-    <project name="poky" path="sources/poky" remote="yocto" revision="master" />
-    <project name="ossystems-yocto-base-scripts" path="sources/base" remote="ossystems" revision="master" >
+    <project name="poky" path="sources/poky" remote="yocto" revision="dizzy" />
+    <project name="ossystems-yocto-base-scripts" path="sources/base" remote="ossystems" revision="dizzy" >
         <copyfile dest="setup-environment" src="setup-environment"/>
     </project>
-    <project name="meta-ossystems-base" path="sources/meta-ossystems-base" remote="ossystems" revision="master" />
+    <project name="meta-ossystems-base" path="sources/meta-ossystems-base" remote="ossystems" revision="dizzy" />
     <project name="meta-fsl-arm" path="sources/meta-fsl-arm" remote="yocto" revision="dizzy" />
     <project name="meta-qt5/meta-qt5" path="sources/meta-qt5" remote="github" revision="dizzy"/>
     <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="dizzy" />
