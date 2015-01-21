@@ -17,5 +17,5 @@ $: repo sync
 
 Once this has completed, you will have all you need. To start a build:
 
-$: source ./setup-environment build  
+$: DISTRO=reach MACHINE=g2h-solo-1 source ./setup-environment build  
 $: bitbake reach-image-minimal
