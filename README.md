@@ -12,7 +12,7 @@ Download the BSP source:
 $: PATH=${PATH}:~/bin  
 $: mkdir reach-bsp  
 $: cd reach-bsp  
-$: repo init -u https://github.com/jmore-reachtech/reach-platform -b daisy  
+$: repo init -u https://github.com/jmore-reachtech/reach-platform -b dizzy  
 $: repo sync  
 
 Once this has completed, you will have all you need. To start a build:
