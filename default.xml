@@ -15,6 +15,7 @@
     </project>
     <project name="meta-ossystems-base" path="sources/meta-ossystems-base" remote="ossystems" revision="fido" />
     <project name="meta-fsl-arm" path="sources/meta-fsl-arm" remote="yocto" revision="fido" />
+    <project name="Freescale/meta-fsl-demos" path="sources/meta-fsl-demos" remote="github" revision="fido" />
     <project name="meta-qt5/meta-qt5" path="sources/meta-qt5" remote="github" revision="fido"/>
     <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="fido" />
     <project name="jmore-reachtech/meta-reach" path="sources/meta-reach" remote="github" revision="fido"/>
