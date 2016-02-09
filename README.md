@@ -12,11 +12,11 @@ Download the BSP source:
 $: PATH=${PATH}:~/bin  
 $: mkdir reach-bsp  
 $: cd reach-bsp  
-$: repo init -u https://github.com/jmore-reachtech/reach-platform -b dizzy  
+$: repo init -u https://github.com/jmore-reachtech/reach-platform -b jethro  
 $: repo sync  
 
 Once this has completed, you will have all you need. To start a build:
 
-$: DISTRO=reach MACHINE=g2h-solo-4 source ./setup-environment build  
-$: bitbake reach-image-minimal  
+$: DISTRO=reach MACHINE=g2h-7-inch source ./setup-environment build  
+$: bitbake reach-image-qt5
 (and grab a few coffees)  
