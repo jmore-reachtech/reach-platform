@@ -7,19 +7,19 @@
 
     <default revision="invalidRevision" sync-j="4"/>
 
-	<project remote="oe" revision="jethro" name="openembedded-core" path="sources/openembedded-core" />
-	<project remote="oe" revision="1.28" name="bitbake" path="sources/bitbake" />
+	<project remote="oe" revision="morty" name="openembedded-core" path="sources/openembedded-core" />
+	<project remote="oe" revision="1.32" name="bitbake" path="sources/bitbake" />
 
-    <project name="ossystems-yocto-base-scripts" path="sources/base" remote="ossystems" revision="jethro" >
+    <project name="ossystems-yocto-base-scripts" path="sources/base" remote="ossystems" revision="morty" >
         <copyfile dest="setup-environment" src="setup-environment"/>
     </project>
-    <project name="meta-ossystems-base" path="sources/meta-ossystems-base" remote="ossystems" revision="jethro" />
-    <project name="meta-fsl-arm" path="sources/meta-fsl-arm" remote="yocto" revision="jethro" />
-    <project name="Freescale/meta-fsl-demos" path="sources/meta-fsl-demos" remote="github" revision="jethro" />
-    <project name="meta-qt5/meta-qt5" path="sources/meta-qt5" remote="github" revision="jethro"/>
-    <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="jethro" />
-    <project name="jmore-reachtech/meta-reach" path="sources/meta-reach" remote="github" revision="jethro"/>
+    <project name="meta-ossystems-base" path="sources/meta-ossystems-base" remote="ossystems" revision="morty" />
+    <project name="meta-freescale" path="sources/meta-freescale" remote="yocto" revision="morty" />
+    <project name="Freescale/meta-freescale-distro" path="sources/meta-freescale-distro" remote="github" revision="morty" />
+    <project name="meta-qt5/meta-qt5" path="sources/meta-qt5" remote="github" revision="morty"/>
+    <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="morty" />
+    <project name="jmore-reachtech/meta-reach" path="sources/meta-reach" remote="github" revision="master"/>
 
-    <project name="jmore-reachtech/reach-platform" path="sources/conf/repo" remote="github" revision="jethro"/>
-    <project name="jmore-reachtech/reach-config" path="sources/conf/tools" remote="github" revision="jethro"/>
+    <project name="jmore-reachtech/reach-platform" path="sources/conf/repo" remote="github" revision="master"/>
+    <project name="jmore-reachtech/reach-config" path="sources/conf/tools" remote="github" revision="master"/>
 </manifest>
