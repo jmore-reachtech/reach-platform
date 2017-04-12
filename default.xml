@@ -16,6 +16,7 @@
     <project name="meta-ossystems-base" path="sources/meta-ossystems-base" remote="ossystems" revision="morty" />
     <project name="meta-freescale" path="sources/meta-freescale" remote="yocto" revision="morty" />
     <project name="Freescale/meta-freescale-distro" path="sources/meta-freescale-distro" remote="github" revision="morty" />
+    <project name="meta-qt4" path="sources/meta-qt4" remote="yocto" revision="morty"/>
     <project name="meta-qt5/meta-qt5" path="sources/meta-qt5" remote="github" revision="morty"/>
     <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="morty" />
     <project name="jmore-reachtech/meta-reach" path="sources/meta-reach" remote="github" revision="master"/>
