@@ -7,15 +7,15 @@
 
     <default revision="invalidRevision" sync-j="4"/>
 
-    <project name="poky" path="sources/poky" remote="yocto" revision="fb8bf6a75e9ac04d5c6213d3e2f097302f83405f" upstream="dizzy"/>
-    <project name="ossystems-yocto-base-scripts" path="sources/base" remote="ossystems" revision="607ff287f2595144bf364e676f7ae090ca813342" upstream="dizzy" >
+    <project name="poky" path="sources/poky" remote="yocto" revision="dizzy"/>
+    <project name="ossystems-yocto-base-scripts" path="sources/base" remote="ossystems" revision="dizzy">
         <copyfile dest="setup-environment" src="setup-environment"/>
     </project>
-    <project name="meta-ossystems-base" path="sources/meta-ossystems-base" remote="ossystems" revision="09f7f995e82bdcdfeb2bb0fdae5d6c120dcfbc60" upstream="dizzy"/>
-    <project name="meta-fsl-arm" path="sources/meta-fsl-arm" remote="yocto" revision="8f2651c0a38674d41ba7d30fa444762ef64f26b9" upstream="dizzy" />
-    <project name="meta-qt5/meta-qt5" path="sources/meta-qt5" remote="github" revision="adeca0db212d61a933d7952ad44ea1064cfca747" upstream="dizzy"/>
-    <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="70beecb2716bca1b9dfbc7d6a264233e1f05e82b" upstream="dizzy"/>
-    <project name="jmore-reachtech/meta-reach" path="sources/meta-reach" remote="github" revision="939081cfd7a4767a0927c0dde093f093a8249f79" upstream="dizzy"/>
+    <project name="meta-ossystems-base" path="sources/meta-ossystems-base" remote="ossystems" revision="dizzy"/>
+    <project name="meta-fsl-arm" path="sources/meta-fsl-arm" remote="yocto" revision="dizzy" />
+    <project name="meta-qt5/meta-qt5" path="sources/meta-qt5" remote="github" revision="dizzy"/>
+    <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="dizzy"/>
+    <project name="jmore-reachtech/meta-reach" path="sources/meta-reach" remote="github" revision="dizzy"/>
 
     <project name="jmore-reachtech/reach-platform" path="sources/conf/repo" remote="github" revision="dizzy" upstream="dizzy"/>
     <project name="jmore-reachtech/reach-config" path="sources/conf/tools" remote="github" revision="dizzy" upstream="dizzy"/>
