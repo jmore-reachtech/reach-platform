@@ -10,6 +10,7 @@
   <project name="openembedded-core" path="sources/openembedded-core" remote="oe" revision="rocko"/>
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="rocko"/>
   <project name="Freescale/meta-freescale" path="sources/meta-freescale" remote="github" revision="rocko"/>
+  <project name="meta-qt5/meta-qt5" path="sources/meta-qt5" remote="github" revision="rocko"/>
 
   <project name="meta-ossystems-base" path="sources/meta-ossystems-base" remote="ossystems" revision="rocko"/>
   <project name="ossystems-yocto-base-scripts" path="sources/base" remote="ossystems" revision="rocko">
