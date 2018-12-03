@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="http://code.ossystems.com.br" name="ossystems" sync-j="4" review="code.ossystems.com.br"/>
-  <remote fetch="git://git.openembedded.org" name="oe" sync-j="4"/>
-  <remote fetch="git://github.com" name="github" sync-j="4"/>
 
-  <default revision="invalidRevision" sync-j="4"/>
+  <default sync-j="4" revision="rocko"/>
 
-  <project name="bitbake" path="sources/bitbake" remote="oe" revision="1.36"/>
-  <project name="openembedded-core" path="sources/openembedded-core" remote="oe" revision="rocko"/>
-  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="rocko"/>
-  <project name="Freescale/meta-freescale" path="sources/meta-freescale" remote="github" revision="rocko"/>
-  <project name="meta-qt5/meta-qt5" path="sources/meta-qt5" remote="github" revision="rocko"/>
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://github.com/Freescale" name="freescale"/>
+  <remote fetch="https://github.com/openembedded" name="oe"/>
+  <remote fetch="https://github.com/meta-qt5" name="qt5"/>
+  <remote fetch="https://github.com/jmore-reachtech" name="reach"/>
 
-  <project name="meta-ossystems-base" path="sources/meta-ossystems-base" remote="ossystems" revision="rocko"/>
-  <project name="ossystems-yocto-base-scripts" path="sources/base" remote="ossystems" revision="rocko">
-    <copyfile dest="setup-environment" src="setup-environment"/>
+  <project remote="yocto" revision="rocko" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="rocko" name="meta-freescale" path="sources/meta-freescale"/>
+
+  <project remote="oe" revision="rocko" name="meta-openembedded" path="sources/meta-openembedded"/>
+
+  <project remote="freescale" revision="rocko" name="fsl-community-bsp-base" path="sources/base">
+	<linkfile dest="README" src="README"/>
+	<linkfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project name="jmore-reachtech/meta-reach" path="sources/meta-reach" remote="github" revision="rocko"/>
-  <project name="jmore-reachtech/reach-platform" path="sources/conf/repo" remote="github" revision="rocko"/>
-  <project name="jmore-reachtech/reach-config" path="sources/conf/tools" remote="github" revision="rocko"/>
+  <project remote="freescale" revision="rocko" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="freescale" revision="rocko" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
+  <project remote="freescale" revision="rocko" name="Documentation" path="sources/Documentation"/>
+  <project remote="qt5" revision="rocko" name="meta-qt5" path="sources/meta-qt5"/>
+  <project remote="reach" revision="rocko" name="meta-reach" path="sources/meta-reach"/>
+
 </manifest>
