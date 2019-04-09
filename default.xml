@@ -9,20 +9,20 @@
   <remote fetch="https://github.com/meta-qt5" name="qt5"/>
   <remote fetch="https://github.com/jmore-reachtech" name="reach"/>
 
-  <project remote="yocto" revision="rocko" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="rocko" name="meta-freescale" path="sources/meta-freescale"/>
+  <project remote="yocto" revision="c3dd2826dd1cd940203609133ecea58ef450d813" upstream="rocko" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="61ab34ac6d664a229847b796ec20fd9f7c8ecbf4" upstream="rocko" name="meta-freescale" path="sources/meta-freescale"/>
 
-  <project remote="oe" revision="rocko" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="oe" revision="eae996301d9c097bcbeb8046f08041dc82bb62f8" upstream="rocko" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="freescale" revision="rocko" name="fsl-community-bsp-base" path="sources/base">
+  <project remote="freescale" revision="70535e13dd2aabbad53243518f4cc5064d284592" upstream="rocko" name="fsl-community-bsp-base" path="sources/base">
 	<linkfile dest="README" src="README"/>
 	<linkfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="freescale" revision="rocko" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
-  <project remote="freescale" revision="rocko" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
-  <project remote="freescale" revision="rocko" name="Documentation" path="sources/Documentation"/>
-  <project remote="qt5" revision="rocko" name="meta-qt5" path="sources/meta-qt5"/>
+  <project remote="freescale" revision="e71ace9ede9b58f2ed3381a53fdc814f8e963c60" upstream="rocko" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="freescale" revision="51756d1c2058139c8a21f89b86cfd8007b71b7f0" upstream="rocko" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
+  <project remote="freescale" revision="04f80738d15ff54d37cae329852f88f5f7ee8ab7" upstream="rocko" name="Documentation" path="sources/Documentation"/>
+  <project remote="qt5" revision="d8b531530fa42b59aa0a5b123d87a30d749cbcc4" upstream="rocko" name="meta-qt5" path="sources/meta-qt5"/>
   <project remote="reach" revision="rocko" name="meta-reach" path="sources/meta-reach"/>
 
 </manifest>
