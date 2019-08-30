@@ -7,15 +7,15 @@
 
     <default revision="invalidRevision" sync-j="4"/>
 
-    <project name="poky" path="sources/poky" remote="yocto" revision="dizzy"/>
-    <project name="ossystems-yocto-base-scripts" path="sources/base" remote="ossystems" revision="dizzy">
+    <project name="poky" path="sources/poky" remote="yocto" revision="58863ad092c9a279e305c841dbb4353de2ecfae8"/>
+    <project name="ossystems-yocto-base-scripts" path="sources/base" remote="ossystems" revision="607ff287f2595144bf364e676f7ae090ca813342">
         <copyfile dest="setup-environment" src="setup-environment"/>
     </project>
-    <project name="meta-ossystems-base" path="sources/meta-ossystems-base" remote="ossystems" revision="dizzy"/>
-    <project name="meta-fsl-arm" path="sources/meta-fsl-arm" remote="yocto" revision="dizzy" />
-    <project name="meta-qt5/meta-qt5" path="sources/meta-qt5" remote="github" revision="dizzy"/>
-    <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="dizzy"/>
-    <project name="jmore-reachtech/meta-reach" path="sources/meta-reach" remote="github" revision="dizzy"/>
+    <project name="meta-ossystems-base" path="sources/meta-ossystems-base" remote="ossystems" revision="09f7f995e82bdcdfeb2bb0fdae5d6c120dcfbc60"/>
+    <project name="meta-fsl-arm" path="sources/meta-fsl-arm" remote="yocto" revision="8f2651c0a38674d41ba7d30fa444762ef64f26b9" />
+    <project name="meta-qt5/meta-qt5" path="sources/meta-qt5" remote="github" revision="adeca0db212d61a933d7952ad44ea1064cfca747"/>
+    <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="70beecb2716bca1b9dfbc7d6a264233e1f05e82b"/>
+    <project name="jmore-reachtech/meta-reach" path="sources/meta-reach" remote="github" revision="4db0348bb450f156e94fb63a1e76d4b578f6d990"/>
 
     <project name="jmore-reachtech/reach-platform" path="sources/conf/repo" remote="github" revision="dizzy" upstream="dizzy"/>
     <project name="jmore-reachtech/reach-config" path="sources/conf/tools" remote="github" revision="dizzy" upstream="dizzy"/>
